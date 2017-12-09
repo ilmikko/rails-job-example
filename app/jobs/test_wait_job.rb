@@ -10,7 +10,7 @@ class TestWaitJob < ApplicationJob
     @@job_running=true
     puts("JOB STARTED")
 
-    sleep 10.seconds
+    sleep 5.seconds
 
     @@job_running=false
     puts("JOB ENDED")
